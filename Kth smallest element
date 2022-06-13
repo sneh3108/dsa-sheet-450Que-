@@ -1,0 +1,8 @@
+class Solution{
+    public:
+    int kthSmallest(int arr[], int l, int r, int k) {
+        sort(arr,arr+r+1);
+        int e=arr[k-1];
+        return e;
+    }
+};
